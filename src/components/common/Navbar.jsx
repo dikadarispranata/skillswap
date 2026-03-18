@@ -45,6 +45,7 @@ export default function Navbar() {
         {user && (
           <div className="flex items-center gap-1">
             <NavLink to="/explore">Explore</NavLink>
+            <NavLink to="/chat">Chat</NavLink>
             <NavLink to="/profile">Profil</NavLink>
           </div>
         )}
